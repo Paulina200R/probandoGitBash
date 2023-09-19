@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/fondo.jpg);
+}
+
+.gradient {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(65deg, rgba(9, 23, 26, 0.98) 45%, rgba(9, 23, 26, 0.8), rgba(30, 30, 30, 0.55));
+}
+
+.menu {
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+ol {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    color: aliceblue;
+    margin: 10px 40px;
+}
+
+li>a{
+    transition: all 0.5s ease;
+}
+
+li>a:hover{
+    color: #5392f7;
+    transform: scale(1.1);
+}
+
+.li-p {
+    margin-left: -27px;
+}
+
+a {
+    text-decoration: none;
+    color: #f0f8ff99;
+}
+
+button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #5392f7;
+}
+
+.formul {
+    width: 500px;
+    height: 400px;
+    margin: 5% 10%;
+}
+
+h3 {
+    color: #f0f8ff99;
+    margin: 10px;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 15px 10px;
+    color: aliceblue;
+}
+
+.btn-tittle {
+    width: 5px;
+    height: 5px;
+    margin-left: 3px;
+}
+
+.text-account {
+    color: #f0f8ff99;
+    font-size: 14px;
+    margin: 0px 0px 30px 10px;
+    transition: all 0.5s ease;
+}
+
+.text-account>a{
+    color: #5392f7;
+    transition: all 0.5s ease;
+}
+
+.text-account>a:hover{
+    letter-spacing: 2px;
+}
+
+.a-login {
+    color: #5392f7;
+    margin-left: 7px;
+}
+
+.inputs-row {
+    width: 500px;
+}
+
+.inputs-row>input {
+    width: 180px;
+    margin-right: 5px;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+    height: 30px;
+    background-color: #242627;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+
+input:hover {
+    background-color: #2426277d;
+}
+
+input:focus {
+    background-color: #2426277d;
+    outline: 2px solid #5392f7;
+}
+
+.btn-row {
+    width: 500px;
+}
+
+.btn-row>input {
+    width: 197px;
+    margin-right: 5px;
+    padding: 10px;
+    height: 45px;
+    background-color: #242627;
+    border: none;
+    margin: 10px;
+    border-radius: 25px;
+    color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+.btn-row>input:hover {
+    background-color: #5392f7;
+    transform: scale(1.05);
+    letter-spacing: 2px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 24px 0px 0px -58px;
+}
+
+.icons2 {
+    width: 20px;
+    height: 20px;
+    margin: 24px 0px 0px -50px;
+    position: absolute;
+}
+
+.icons3 {
+    width: 20px;
+    height: 20px;
+    margin: 24px 0px 0px -50px;
+    position: absolute;
+}
